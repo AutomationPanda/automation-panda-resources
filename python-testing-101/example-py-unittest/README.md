@@ -7,9 +7,10 @@ It will work for Python 2 and 3.
 
 To run tests from the example project root directory, run one of the following commands:
 
+* `python -m unittest discover` to discover all unit tests in a project
 * `python -m unittest com.automationpanda.tests.test_calc` to run the test module by name
 * `python -m unittest com.automationpanda.tests.test_calc.CalculatorTest` to run a TestCase class by name
-* `python -m unittest discover` to discover all unit tests in a project
+* `python -m unittest com/automationpanda/tests/test_calc.py` to run the test module by file path
 
 Note that unittest tests must be in a Python package from the project root,
 meaning that the `tests` directory needs `__init__.py`.
