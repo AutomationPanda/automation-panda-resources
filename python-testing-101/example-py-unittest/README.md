@@ -5,6 +5,15 @@ This example is part of the
 from [Automation Panda](https://automationpanda.com/).
 It will work for Python 2 and 3.
 
+Project Structure
+-----------------
+This project has two packages:
+* `com.automationpanda.example` contains `calc.py`, which has a basic Calculator class.
+* `com.automationpanda.tests` contains `test_calc.py`, which contains `unittest` test cases.
+
+Running Tests
+-------------
+
 To run tests from the example project root directory, run one of the following commands:
 
 * `python -m unittest discover` to discover all unit tests in a project
