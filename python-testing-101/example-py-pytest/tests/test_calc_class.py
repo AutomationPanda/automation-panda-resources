@@ -31,7 +31,6 @@ def verify_answer(expected, answer, last_answer):
 
 # Test Cases
 
-
 def test_last_answer_init(calculator):
     assert calculator.last_answer == 0.0
 
